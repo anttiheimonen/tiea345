@@ -1,0 +1,2 @@
+Tein kaikki tehtävät, eli 1-4.
+Tehtävien kuvakset ovat kansiossa Demo1 omissa tiedostoissaan.

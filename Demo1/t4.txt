@@ -1,0 +1,3 @@
+Tehtävä 1.4: Raspbianin kirjoittaminen
+
+Latasin uusimman version Raspbianista graafisella käyttöliittymällä osoitteesta https://www.raspberrypi.org/downloads/raspbian/. Versio oli julkaistu 2018-11-13. Tiedosto oli levykuva, ja sen sai kirjoitettua SD-kortille Etcher-ohjelman avulla. Ohjelma oli helppokäyttöinen. Siinä valittiin vain ladattu zip-paketista purettu tiedosto ja painettiin käynnistä. Muutaman minuutin jälkeen kirjoitus oli valmis ja Raspberryn pystyi käynnistämään tämän SD-kortin kanssa.

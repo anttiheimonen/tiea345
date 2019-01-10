@@ -1,0 +1,21 @@
+Tehtävä 1.2: Raspbianin käyttöönottaminen
+
+Kun Raspberryn käynnisti muistikortin kanssa, niin työpöydän latauduttua esille tuli ”Welcome to Raspberry Pi” ikkuna, jossa sai määrettyä seuraavat asetukset:
+1.	Ensimmäisen käynnistyksen yhteydessä Raspbian kysyi maakohtaiset asetukset (sijainti, aikavyöhyke, näppäimistönasettelu, WiFi country). 
+2.	Oletuskäyttäjän Pi oletussalasanan pystyi vaihtamaan. Vaihdettu tilalle parempi.
+3.	Kodin wlaniin yhdistäminen. Verkon sai valita listasta, jolloin Raspbian kysyi verkon salasanan ja muodosti yhteyden.
+4.	Internet-yhteyden saatuaan Raspbian tarjoutui päivittämään ohjelmistot. Hyväksytty tarjous.
+
+Tämän jälkeen tarkistin vielä päivitykset varmuuden vuoksi ohjeiden komennoilla:
+
+sudo apt-get update 
+sudo apt-get dist-upgrade
+
+Päivityksiä ei löytynyt. Ajettu myös:
+
+sudo apt-get autoremove
+
+SD-kortin vapaaksi tilaksi tässä vaiheessa käsky df -h ilmoittaa 9,3 GB.
+Asetettu järjestelmän nimeksi raspheimonen. Tämä onnistui valikosta ”Asetukset / Raspberry Pi Configuration”
+
+Tarkistettu vielä, että kaikki asetukset ovat tehtävänannon mukaisesti, sekä Internet-yhteyden toiminta avaamalla yle.fi sivu.

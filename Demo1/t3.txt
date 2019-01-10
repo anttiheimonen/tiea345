@@ -1,0 +1,8 @@
+Tehtävä 1.3: Etäyhteys
+
+Kotireitittimen Raspberrylle jakama ip-osoite: 192.168.1.206
+Otettu VNC ja SSH käyttöön valikosta Raspberry Pi Configuration / Interfaces. Käynnistetty Raspberry uudestaan.
+Testattu etäyhteydet kotikoneelta käsin. VNC-yhteyden sai VNC Viewerin avulla IP-osoiteen perusteella. SSH onnistui Puttyn kautta IP-osoitteen ja portin 22 kautta. Kirjautuminen molempiin yhteyksiin onnistui käyttäjänä pi ja uuden salasanan kanssa.
+
+Kun Real VNC palvelinohjelmisto oli jo valmiiksi Raspberryssä asennettuna, niin en nähnyt syytä asentaa TightVNC ohjelmistoa.
+Nyt Raspberryn käyttäminen onnistuu täysin etänä.
