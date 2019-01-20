@@ -1,3 +1,5 @@
 Tein tehtävät 1, 2 omina tiedostoinaan. Tehtävät 3 ja 4 ovat osa tehtävää 5, joten liikennevalot
 on tehty kokonaisuudessaan tehtävään 5. Tehtävän pitäisi mielestäni täyttää kaikki tehtävien 
 3 - 4 vaatimukset.
+
+Demo 2 vastaukset löytyvät kansiosta Demo2. Liikennevalojen toiminnasta on linkki youtube videoon.
