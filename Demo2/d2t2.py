@@ -15,17 +15,17 @@ GPIO.setup(LIIKE, GPIO.IN)		# Asetetaan ledin virtasyöte virranantotilaan
 tila = 0
 edellinen_tila = 0
 
+# Ohjelma pyörii silmukassa, kunnes käyttäjä painaa ctrl + c
+print("Paina CTRL + c lopettaaksesi")
+
 try:
 	while True:
-		time.sleep(1)
-		GPIO.output(LED_PIN, GPIO.input (PAINIKE))
-		tila = GPIO.input (LIIKE)
-		if tila != edellinen_tila:
-			print("Liikesensorin tila muuttunut: " , tila )
+		time.sleep(0.1)		# Tauko estää prosessorin 100 % käytön
+		GPIO.output(LED_PIN, GPIO.input (PAINIKE))	# LED_PIN saa arvoksi napin inputin arvon
+		tila = GPIO.input (LIIKE)					# Otetaan liikesensorin tila ylös
+		if tila != edellinen_tila:					# Jos tila on muuttunut, niin kerrotaan siitä
+			print "Liikesensorin tila muuttunut: " , tila
 			edellinen_tila = tila
-		else:
-			print("Liikesensorin tila: " , tila )
-			
 except KeyboardInterrupt:
 	pass
 	
