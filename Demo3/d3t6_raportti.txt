@@ -1,0 +1,20 @@
+﻿Tehtävässä 6 tehtiin seuraavat toimenpiteet:
+
+En ole varma oliko Raspberryssä valmiina Apache, vai asensinko sen itse
+apt-getillä, mutta service nimeltään Apache2 siellä nyt kuitenkin pyörii.
+Kotiverkossa pääsin Apachen oletussivulle toiselta koneelta.
+
+Tein pythonilla ohjelman, joka ottaa yhden kuvan ja sijoittaa sen 
+pi-käyttäjän Pictures hakemistoon nimellä tunninkuva.jpg. 
+Lisäsin tämän ohjelman ajettavaksi Crontabiin tasatunnein käskyllä
+crontab -e ja lisäämällä rivin:
+
+0 * * * * python /home/pi/koodi/d3/d3t6.py
+
+Apachen sivut sijaitsevat hakemistossa /var/www/html/. Tein tänne 
+luentomonisteissakin mainitun symbolisen linkin "kuva" hakemistoon 
+/home/pi/Pictures. Sitten tein html-sivun, joka näyttää tämän linkin
+kautta python ohjelman tallentaman kuvan tunninkuva.jpg. Tallensin 
+sivun /var/www/html/index.html. Nyt pääsen muilta tietokoneilta 
+katsomaan Raspberryn tallentaman kuvan selaimella ip-osoitteen kautta.
+

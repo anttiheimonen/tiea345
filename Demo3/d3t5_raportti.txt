@@ -1,0 +1,22 @@
+Tehtävässä 5 tehtiin seuraavat toimenpiteet:
+Luotu Python ohjelma, joka ottaa yhden kuvan.
+lisätty tämä ohjelma Crontabin ajettavaksi tasatunnein.
+Crontabin ajastuksia pääsee lisäämään käskyllä:
+
+crontab -e
+
+lisätty tänne rivi
+
+0 * * * * python /home/pi/koodi/d3/d3t5.py
+
+(Ajettava ohjelma sijaitsee koodi-hakemistossa vain
+akateemisista syistä)
+
+Tämän jälkeen Crontab suorittaa ohjelman aina, kun 
+minuuttimäärä on 0.
+
+Crontabiin olisi voinut vielä lisätä kuvan ottamisen 
+Raspberryn uudelleen käynnistämisen jälkeen käskyllä
+
+@reboot python /home/pi/koodi/d3/d3t5.py
+

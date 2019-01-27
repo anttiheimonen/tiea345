@@ -1,0 +1,8 @@
+﻿Videon resoluution pienentäminen onnistui python-koodissa ennen
+kuvaamista käskyllä camera.resolution = (600, 480)
+
+Linkit:
+
+Kuva    https://www.dropbox.com/s/8jngg9zmmyvjpfq/d3t3.jpg?dl=0
+
+Video   https://www.youtube.com/watch?v=7eCqS4vg2Oo
