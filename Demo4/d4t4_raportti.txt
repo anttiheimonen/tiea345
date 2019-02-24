@@ -1,0 +1,7 @@
+﻿Muutettu motion.config tiedostoon asetus:
+
+mask_file /home/pi/koodi/motion/mask.pgm
+
+Lisäksi tehty mustavalkea mask.pgm-kuva, jossa musta alue ilmaisee sen kohdan,
+joka peitetään kuvasta liikettä tunnistaessa. Eli tässä tapauksessa kuvassa on
+valkoinen ympyrä keskellä. Kuva on mukana Demo4 hakemistossa.

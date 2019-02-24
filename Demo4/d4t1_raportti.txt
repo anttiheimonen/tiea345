@@ -1,0 +1,10 @@
+Asennetu Motion luentokalvojen ohjeiden mukaiseseti.
+
+Asetettu uusi PID, lokitiedoston ja tallennushakemiston sijainnit muuttamalla
+pi-käyttäjän kotihakemiston takaa löytyvään Motionin config-tiedostoon 
+seuraavat rivit:
+	process_id_file /home/pi/motion/motion.pid
+	logfile /home/pi/koodi/motion/motion.log
+	target_dir /home/pi/koodi/motion/tallennus
+
+	

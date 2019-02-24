@@ -1,0 +1,5 @@
+Muutettu motion.config tiedostoon asetus:
+
+max_movie_time 10
+
+Tällöin Motion tallentaa maksimissaan 10 sekunnin mittaisen videon liikkeen alkamisesta.

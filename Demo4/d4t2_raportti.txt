@@ -1,0 +1,8 @@
+Muutettu tiedostoon asetukset:
+
+pre_capture 4
+post_capture 10
+
+kuvien tallennus on oletuksena kaksi kuvaa sekunnossa, joten 
+4 kuvan tallennus ennen liikettä ja 10 jälkeen tekevät 
+2 sekunnin ennakko- ja 5 sekunnin jälkitallennusajat

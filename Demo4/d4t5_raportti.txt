@@ -1,0 +1,1 @@
+Asennetu OpenCV luentokalvojen neuvojen mukaan luentokalvojen ohjeiden mukaiseseti.
