@@ -1,0 +1,35 @@
+En ollut demotilaisuudessa paikalla, joten asensin Mosquitton 
+Windows-koneelleni ja käynnistin Mosquitto-palvelimen tässä.
+Käytin Mosquitton Win-64 pakettia ja asensin ohjelman vaatiman
+OpenSSL:n, koska Mosquitto vaati sen sisältämiä kirjastoja.
+
+
+1. Viestittely komentokehoitteella:
+
+Windows-koneella, jonka ip-osoite on 192.168.1.2, oli palvelin käynnissä.
+
+Raspberryllä laitoin yhdessä terminaalissa Mosquitton kuuntelutilaan käskyllä:
+
+	mosquitto_sub -h 192.168.1.2 -t testitopikki
+
+Viestin lähetys onnistui Raspberryllä toisessa terminaalissa:
+
+	mosquitto_pub -h 192.168.1.2 -t testitopikki -m "Viestiä kaikille"
+
+ja Windowsissa komentokehotteessa Mosquitton ohjelmalla:
+
+	mosquitto_pub -h localhost -t testitopikki -m "Terveisin Windows"
+	
+Viestit kulkivat oikein myös useamman ikkunan ollessa kuunntelutilassa sekä 
+Linuxilla, että Windowissa. 
+
+
+2. Tehty d5t4_listener.py ja d5t4_publisher.py.
+
+d5t4_listener.py - Kuuntelee palvelimelta 192.186.1.2 topikissa testitopikki olevia
+viestejä, ja tulostaa niitä sitä mukaan niitä saapuu.
+
+d5t4_publisher.py - Käyttäjä voi kirjoittaa viestejä ja ne lähtevät edellä mainitulle
+palvelimelle ja topikkiin.
+
+Molemmat ohjelmat sammuvat CTRL + c painalluksella.

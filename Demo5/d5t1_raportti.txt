@@ -1,0 +1,2 @@
+Koodi k‰‰ntyy k‰skyll‰
+gcc -Wall -o d5t1 d5t1.c -lwiringPi
