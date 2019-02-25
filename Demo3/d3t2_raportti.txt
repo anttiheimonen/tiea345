@@ -10,9 +10,6 @@ Tätä kautta tiedoston JSON-tiedoston siirto kävi helposti.
 client_email.kenttä: pusher-raspi@heimonen-antti-tiea345.iam.gserviceaccount.com
 
 
-En saanut kuitenkaan yhteyttä toimimaan Python-ohjelmista Google
-Driveen. Googlen Developers Consolessa tunnus näyttäisi olevan 
-kunnossa ja loin tunnuksen vielä pari kertaa uudestaan. Yritin 
-myös useamman netistä löydetyn esimerkin avulla saada yhteyttä 
-Python-ohjelmasta Driveen, mutta homma ei pelittänyt. En löytänyt 
-vikaa, joten en tehnyt tehtävä 2:n koodausosuutta.
+Päivitys 26.2:
+Sain lämpötilatiedot lähetetty Google Driveen. Taulukko on jaettu 
+opettajaryhmän kanssa. Koodi on lisätty mukaan palautukseen.
