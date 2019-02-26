@@ -1,5 +1,9 @@
-Muutettu motion.config tiedostoon asetus:
+﻿Päivitetty 26.2: Config tiedostoon määritetty:
 
+post_capture 20
 max_movie_time 10
 
-Tällöin Motion tallentaa maksimissaan 10 sekunnin mittaisen videon liikkeen alkamisesta.
+Videossa on kaksi kuvaa sekunnissa, joten post_capture tallentaa 10 sekuntia videoon liikkeen loppumisen jälkeen.
+Asetus max_movie_time 10 jakaa videot 10 sekuntia pitkiin pätkiin. Tällä tavoin saattaa syntyä myös ylimääräisiä videoita,
+koska liikkeen jatkuessa myös tallennus jatkuu 10 sekunnin jälkeen, ja jakaa myös myöhemmän tallennuksen 10 sekunnin videoihin.
+Kuiteenkin liikkeen alkamisesta saadaan 10 sekunnin mittainen video.
